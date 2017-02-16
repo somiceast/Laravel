@@ -1,0 +1,4 @@
+session ：使得登陆时 客户端和服务器端都知道
+
+命令行：php artisan make:model question
+新建个model：question

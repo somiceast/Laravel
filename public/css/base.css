@@ -1,0 +1,401 @@
+body{
+    background: #eeeeee;
+    line-height: 1.6 ;
+    font-size: 14px;
+    font-family: "华文细黑",'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1{
+    font-size: 16px;
+
+}
+
+h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+* {
+    /*background: rgba(0,0,0,0.07);*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    padding-top:5px;
+    padding-right:10px;
+    float: right;
+}
+
+.hr{
+    display: block;
+    max-width:99%;
+    height:1px;
+    background: #aaa;
+    margin: 11px auto;
+}
+
+.container:after,
+.container:before,
+.clearfix:after,
+.clearfix:before
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.navbar-item{
+    display: inline-block;
+    line-height: 2;
+    padding: 2px 4px;
+    float: left;
+}
+
+.navbar{
+    background: #6dbf6e;
+    color:white;
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: medium;
+}
+
+button.primary,
+#quick_ask button{
+    background: #6dbf6e;
+    color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border:1px solid rgba(0,0,0,.1);
+}
+
+
+.navbar form{
+    display: inline-block;
+}
+
+/*logo*/
+.navbar .brand{
+    font-size: 30px;
+    padding-top: 5px;
+    line-height: 1;
+    font-weight: 800;
+}
+
+/*居中板块*/
+.container {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+}
+
+.navbar .container{
+    margin: 0 auto;
+}
+
+/*.container.signup,*/
+/*.container.home,*/
+/*.container.user,*/
+/*.container.question-add,*/
+/*.container.question-detail,*/
+/*.container.reset-password,*/
+/*.container.login{*/
+    /*max-width: 750px;*/
+    /*margin-top: 15px;*/
+/*}*/
+
+.feed-item-content .content-act
+{
+    font-size: 12px;
+    font-weight: 500;
+    color:#777
+}
+
+.feed-item-content .title{
+    font-size: 20px;
+    color: #2e3436;
+    font-weight: 700;
+}
+
+.feed-item-content .content-owner{
+    color:#666;
+}
+
+.feed-item-content .content-owner .desc{
+    color: #999;
+    font-weight: 500;
+    font-size: 12px;
+    padding : 5px;
+}
+
+.feed-item-content .content-main {
+    font-size: 15px;
+}
+
+
+.action-set{
+    color: #999;
+    font-size: 12px;
+}
+
+.comment-item-set{
+
+    padding: 0 10px;
+
+}
+.comment-block{
+}
+
+.comment-item-set .rect{
+
+    max-width:0;
+    height:0;
+    border-left:6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom:6px solid #aaa;
+    position: relative;
+    bottom:-10px;
+    left: 5px;
+}
+
+ .comment-item .user {
+     float: left;
+     max-width: 10%;
+     font-weight: 500;
+     font-size: 16px;
+}
+ .comment-item .comment-content{
+     margin-left:1%;
+     width: 89%;
+     float: right;
+ }
+
+ .comment-item{
+     padding-bottom: 10px ;
+ }
+
+button.primary
+{
+    background: #6dbf6e;
+    color: #FFFFFF;
+}
+button[disabled] {
+    background: #eee;
+    color: #aaa;
+}
+
+[ui-sref] {
+    cursor: pointer;
+}
+
+form,
+label{
+    display: block;
+}
+label{
+    margin:4px 0px;
+}
+
+.input-error-set{
+    color: #6dbf6e;
+    margin: 4px 0;
+}
+
+.card{
+    display: block;
+    border-radius: 14px;
+    background: white;
+    box-shadow: 0 6px 12px 6px rgba(0, 0, 0, .1);
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+.version{
+    display: block;
+    /*width: 1750px;*/
+    max-width: 100%;
+    margin-left:auto;
+    /*position: fixed;*/
+    margin-right:auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;;
+    /*bottom: 0px;*/
+    /*background: #99cb84;*/
+}
+
+input,textarea
+{
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border:1px solid rgba(0,0,0,.1);
+    background: rgba(255,255,255,1);
+    outline:none;
+}
+
+.input-group
+{
+    margin-bottom: 10px;
+}
+
+button {
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: transparent;
+    list-height:2;
+}
+
+input, button{
+    padding: 5px;
+}
+
+
+
+h1, h2,.info_item
+{
+    margin-top:0;
+    color:#666
+}
+
+.version .kkk{
+    display: block;
+    max-width: 1000px;
+    position: static;
+    left:0;
+    bottom: 0;
+    background: green;
+}
+.tac{
+    text-align: center;
+    font-size: large;
+}
+.feed.item .vote{
+    float: left;
+    text-align: center;
+    width: 7%;
+}
+.feed.item .feed-item-content{
+    float: left;
+    width: 93%;
+}
+.feed.item .hr{
+    margin: 11px 5px;
+    float: left;
+    width: 100%;
+}
+.feed.item .vote{
+    padding-right:5px;
+}
+
+.feed.item .vote > *
+{
+    background: rgba(27,129,62,0.1);
+    vertical-align: middle;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    padding: 2px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+.feed.item .vote .up{
+    color: #24936E;
+
+}
+.feed.item .vote .up:hover{
+    background: rgba(27,129,62,1);
+    color: white;
+}
+.feed.item .vote .down{
+    background: rgba(0,0,0,0.1);
+    color: #999;
+}
+.feed.item .vote .down:hover{
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+
+.info_item >*:first-child{
+    width:20%;
+    float: left;
+}
+.info_item >*:last-child{
+    width:80%;
+    float: left;
+}
+
+.info_item >*{
+    margin: 5px;
+}
+
+.user.container .title{
+    font-weight:700;
+}
+
+.question-detail h1{
+    margin-bottom:0;
+}
+
+.gray,
+.gray a
+{
+    color: #999;
+    text-decoration: none;
+}
+
+.answer_add_form textarea{
+    height: 120px;
+    width:100%;
+}
+.cursor{
+    cursor: pointer;
+}
+
+.comment_form [type = 'submit'] {
+    width:9%;
+    margin-left:1%;
+}
+.comment_form input
+,[type = 'submit']
+{
+    float: left;
+
+}
+.comment_form input {
+    width:90%;
+}
+
+.well{
+    padding: 10px;
+    font-size: small;
+}
+
+.msg{
+    color: white;
+    text-shadow: 0 0 0.2em red
+
+}
+
+.gray_card{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.kkk{
+    padding:7px 0 0 12px;
+}
+
+.content-act a {
+    color: #777;
+}
